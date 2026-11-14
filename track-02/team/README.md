@@ -1,10 +1,10 @@
-# [Team Name]: [Project Title]
+# Team Trench
 
 OpenBio 2026 Datathon, Track 2: Cardiovascular Health in Women
 
 > This project is a student data analysis. It is not medical advice, a diagnostic tool or clinical guidance.
 
-## Team
+## Team Trench
 
 | Name | Role |
 |---|---|
@@ -12,11 +12,11 @@ OpenBio 2026 Datathon, Track 2: Cardiovascular Health in Women
 
 ## Research Question
 
-[One sentence. Example format: "Among women in Dataset 1, is X associated with Y after accounting for age?"]
+Among women aged 30 to 65, do cholesterol and glucose levels tell us anything about cardiovascular disease beyond age and blood pressure?
 
 ## Datasets Used
 
-- [ ] Dataset 1: Cardiovascular Disease Dataset
+- [x] Dataset 1: Cardiovascular Disease Dataset
 - [ ] Dataset 2: Heart Attack Risk Prediction Dataset (synthetic)
 - [ ] Dataset 3: Global CVD in Women, Tables S1 and S2
 
