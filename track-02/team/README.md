@@ -7,7 +7,7 @@ OpenBio 2026 Datathon, Track 2: Cardiovascular Health in Women
 ## Team Trench
 
 | Name | Role |
-|---|---|
+|Adam|Repo and cleaning|
 | | |
 
 ## Research Question
