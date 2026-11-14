@@ -40,7 +40,32 @@ Among women aged 30 to 65, do cholesterol and glucose levels tell us anything ab
 
 ## Key Findings
 
-[Two or three sentences with effect sizes and confidence intervals.]
+Among women aged 30 to 65, cholesterol level stay strongly associated with cardiovascular disease after accounting for age and blood pressure. Once cholesterol was accounted for in the model, changes in glucose accounted for negligible changes in overall gain of predictive accuracy. 
+
+| Factor | Odds Ratio | 95% CI |
+|---|---|---|
+|Cholesterol above normal (vs normal) | 1.45 | 1.36 to 1.55 | 
+| Cholesterol well above normal (vs. normal) | 3.07 | 2.82 to 3.34 |
+| Glucose above normal (vs normal) | 1.04 | 0.95 to 1.13 |
+| Glucose well above normal (vs normal) | 0.75 | 0.68 to 0.82|
+| Age, per year | 1.06 | 1.05 to 1.06 |
+| Systolic pressure, per mmHg | 1.06 | 1.06 to 1.06 |
+| Diastolic pressure, per mmHg | 1.01 | 1.01 to 1.02 |
+
+How well each model predicts (held-out AUC, where 0.5 is a coin flip and 1 is perfect):
+
+| Model | AUC |
+|---|---|
+|Age and blood pressure only |0.787 |
+| Adding glucose | 0.789 |
+| Adding cholesterol | 0.798 |
+| Adding both | 0.799 |
+
+The gain from adding both is about 0.011 (95% interval 0.009 to 0.014). Small but does exist.
+
+  
+
+
 
 ## Limitations
 
