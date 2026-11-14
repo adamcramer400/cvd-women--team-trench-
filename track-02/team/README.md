@@ -63,7 +63,13 @@ How well each model predicts (held-out AUC, where 0.5 is a coin flip and 1 is pe
 
 The gain from adding both is about 0.011 (95% interval 0.009 to 0.014). Small but does exist.
 
-  
+
+
+| Glucose well above normal, compared with normal | Odds ratio |
+|---|---|
+|On its own | 1.93 |
+| Accounting for age and blood pressure | 1.41 |
+| Also accounting for cholesterol | 0.75
 
 
 
