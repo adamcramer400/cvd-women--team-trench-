@@ -15,7 +15,7 @@ OpenBio 2026 Datathon, Track 2: Cardiovascular Health in Women
 
 ## Research Question
 
-Among women aged 30 to 65, do cholesterol and glucose levels tell us anything about cardiovascular disease beyond age and blood pressure?
+Among women aged about 30 to 65, do cholesterol and glucose levels tell us anything about cardiovascular disease beyond age and blood pressure?
 
 ## Datasets Used
 
