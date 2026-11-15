@@ -48,7 +48,7 @@ That does not mean high glucose protects the heart. The two measures travel toge
 
 ![Glucose odds ratios from models without and with cholesterol](../figures/fig3_glucose_flip.png)
 
-*Figure 3. Glucose odds ratios from a model without cholesterol (grey) and with it (blue). Well above normal glucose goes from higher odds to lower odds once cholesterol is included.*
+*Figure 3. Glucose odds ratios from a model without cholesterol (grey) and with it (green). Well above normal glucose goes from higher odds to lower odds once cholesterol is included.*
 
 ### Cholesterol adds only a little to prediction
 
@@ -60,7 +60,7 @@ A strong link is not the same as better prediction. We measured how well each mo
 
 ### What this looks like for one woman
 
-Picture 100 women aged 54 with a systolic blood pressure of 120 and normal glucose. If their cholesterol is normal, our model predicts about 38 of them have CVD. If it is well above normal, about 66 (Figure 5). **That is 3.09 times the odds, but about 1.7 times the chance**, a gap worth remembering whenever you see an odds ratio. Real women with a similar profile (aged 50 to 58, with a systolic blood pressure of 120 and normal glucose) show the same pattern: 32% versus 75%.
+Picture 100 women aged 54 with a systolic blood pressure of 120 and normal glucose. If their cholesterol is normal, our model predicts about 38 of them have CVD. If it is well above normal, about 66. **That is 3.09 times the odds, but about 1.7 times the chance**, a gap worth remembering whenever you see an odds ratio. Real women with a similar profile (aged 50 to 58, with a systolic blood pressure of 120 and normal glucose) show the same pattern: 32% versus 75%.
 
 ![Dot charts showing 38, 47 and 66 out of 100 women with CVD by cholesterol level](../figures/headline.png)
 
