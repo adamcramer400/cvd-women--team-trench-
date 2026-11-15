@@ -41,36 +41,38 @@ Among women aged 30 to 65, do cholesterol and glucose levels tell us anything ab
 
 ## Key Findings
 
-Among women aged 30 to 65, cholesterol level stay strongly associated with cardiovascular disease after accounting for age and blood pressure. Once cholesterol was accounted for in the model, changes in glucose accounted for negligible changes in overall gain of predictive accuracy. 
+Among 44,639 women aged 30 to 65, cholesterol stayed strongly associated with cardiovascular disease (CVD) after accounting for age, systolic blood pressure and glucose. Women with well above normal cholesterol had about three times the odds of CVD compared with women with normal cholesterol. Adding cholesterol improved prediction slightly beyond age and blood pressure, and glucose added nothing further once cholesterol was included.
 
-| Factor | Odds Ratio | 95% CI |
+**Odds ratios from the main logistic regression model (all factors in one model):**
+
+| Factor | Odds ratio | 95% CI |
 |---|---|---|
-|Cholesterol above normal (vs normal) | 1.45 | 1.36 to 1.55 | 
-| Cholesterol well above normal (vs. normal) | 3.07 | 2.82 to 3.34 |
+| Cholesterol above normal (vs normal) | 1.45 | 1.36 to 1.55 |
+| Cholesterol well above normal (vs normal) | 3.09 | 2.84 to 3.37 |
 | Glucose above normal (vs normal) | 1.04 | 0.95 to 1.13 |
-| Glucose well above normal (vs normal) | 0.75 | 0.68 to 0.82|
+| Glucose well above normal (vs normal) | 0.74 | 0.68 to 0.82 |
 | Age, per year | 1.06 | 1.05 to 1.06 |
-| Systolic pressure, per mmHg | 1.06 | 1.06 to 1.06 |
-| Diastolic pressure, per mmHg | 1.01 | 1.01 to 1.02 |
+| Systolic blood pressure, per mmHg | 1.06 | 1.06 to 1.07 |
 
-How well each model predicts (held-out AUC, where 0.5 is a coin flip and 1 is perfect):
+**How well each model predicts CVD (held-out AUC, where 0.5 is a coin flip and 1 is perfect):**
 
 | Model | AUC |
 |---|---|
-|Age and blood pressure only |0.787 |
-| Adding glucose | 0.789 |
+| Age and blood pressure only | 0.787 |
+| Adding glucose | 0.788 |
 | Adding cholesterol | 0.798 |
-| Adding both | 0.799 |
+| Adding both (main model) | 0.798 |
 
-The gain from adding both is about 0.011 (95% interval 0.009 to 0.014). Small but does exist.
+Adding cholesterol raised the AUC by about 0.011. Adding glucose on top of cholesterol did not change it.
 
+**Glucose well above normal, compared with normal:**
 
-
-| Glucose well above normal, compared with normal | Odds ratio |
+| Model | Odds ratio (95% CI) |
 |---|---|
-|On its own | 1.93 |
-| Accounting for age and blood pressure | 1.41 |
-| Also accounting for cholesterol | 0.75
+| Accounting for age and blood pressure | 1.41 (1.30 to 1.53) |
+| Also accounting for cholesterol | 0.74 (0.68 to 0.82) |
+
+High glucose and high cholesterol tend to occur in the same women. Once cholesterol is in the model, glucose adds no independent information and its odds ratio falls below 1. This reflects that overlap, not a protective effect of high glucose.
 
 
 
