@@ -62,9 +62,9 @@ A strong link is not the same as better prediction. We measured how well each mo
 
 Picture 100 women aged 54 with a systolic blood pressure of 120 and normal glucose. If their cholesterol is normal, our model predicts about 38 of them have CVD. If it is well above normal, about 66. **That is 3.09 times the odds, but about 1.7 times the chance**, a gap worth remembering whenever you see an odds ratio. Real women with a similar profile (aged 50 to 58, with a systolic blood pressure of 120 and normal glucose) show the same pattern: 32% versus 75%.
 
-![Dot charts showing 38, 47 and 66 out of 100 women with CVD by cholesterol level](../figures/headline.png)
+![Odds of CVD for above normal and well above normal cholesterol compared with normal](../figures/headline.png)
 
-*Figure 5. Our headline visual: the predicted chance of CVD out of 100 women aged 54 with systolic blood pressure of 120 mmHg and normal glucose, by cholesterol level, with 95% confidence intervals.*
+*Figure 5. Our headline visual: women with well above normal cholesterol had about 3 times the odds of CVD as women with normal cholesterol of the same age and blood pressure. Lines show 95% confidence intervals; the dashed line marks no difference.*
 
 ## Unanswered Questions
 
@@ -118,7 +118,7 @@ All four models were scored on the same held-out 20% of women. Gains are measure
 | Age + systolic blood pressure | 0.787 | — | — | — |
 | + cholesterol | 0.798 | +0.011 (0.008 to 0.014) | 1.46 / 2.70 | — |
 | + glucose | 0.788 | +0.001 (0.000 to 0.002) | — | 1.22 / 1.41 |
-| + cholesterol + glucose (main model) | 0.798 | +0.011 (0.008 to 0.014) | 1.45 / 3.09 | 1.04 / 0.74 |
+| + cholesterol + glucose (main model) | 0.798 | +0.011 (0.009 to 0.014) | 1.45 / 3.09 | 1.04 / 0.74 |
 
 A likelihood-ratio test asks whether adding a variable improves a model's fit to the data by more than chance alone would. Every addition passed this test (p < 0.001; a p-value is the probability of seeing an improvement at least this large if the added variable truly contributed nothing). In a sample this large, however, even very small improvements pass such tests, and only cholesterol noticeably improved prediction. The OR for well above normal cholesterol also rose from 2.70 to 3.09 once glucose was added, further evidence that the two measures are intertwined. Confidence intervals for the main model's odds ratios appear in Figure 2, and those for both glucose models appear in Figure 3.
 
@@ -131,7 +131,7 @@ Each row changes one analysis choice and reports the odds ratios for well above 
 | Main model | 44,639 | 3.09 (2.84 to 3.37) | 0.74 (0.68 to 0.82) |
 | + body mass index, smoking, alcohol, activity | 44,639 | 3.00 (2.76 to 3.27) | 0.74 (0.67 to 0.81) |
 | + diastolic blood pressure | 44,639 | 3.07 (2.82 to 3.34) | 0.74 (0.68 to 0.82) |
-| Systolic blood pressure in bands | 44,639 | 2.96 (2.71 to 3.23) | 0.75 (0.68 to 0.82) |
+| Systolic blood pressure in bands | 44,639 | 2.96 (2.71 to 3.22) | 0.74 (0.68 to 0.82) |
 | Stricter cleaning (systolic 90–200, diastolic 60–120 mmHg) | 44,465 | 3.08 (2.83 to 3.35) | 0.74 (0.68 to 0.82) |
 
 With the stricter cleaning, adding cholesterol and glucose still raised AUC by 0.011 (from 0.781 to 0.792).
