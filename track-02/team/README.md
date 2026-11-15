@@ -80,7 +80,15 @@ High glucose and high cholesterol tend to occur in the same women. Once choleste
 
 ## Limitations
 
-[Synthetic data, ecological fallacy, binary sex variable, anything else that limits your claims.]
+- **Association, not cause.** Each woman was measured only once, so we cannot claim that lowering cholesterol would prevent CVD. That would take longitudinal studies that follow people over time
+- **Unknown sample.** We do not know where, when or how the patients were chosen, and nearly half of them have CVD. They may not represent women in general, and the data cannot estimate how common CVD is
+- **Limited age range.** Ages run from about 30 to 65, so findings may not apply to older women
+- **Coarse measurements.** Cholesterol and glucose come in three broad levels (normal, above normal, well above normal) rather than lab values, and the cutoffs are not documented
+- **Rounded blood pressure.** Many systolic readings are exactly 120 or 140, which suggests rounding
+- **No diagnoses or medications.** The data has no diabetes diagnoses or medication records, so we cannot test whether treatment explains the glucose result
+- **Overlapping risk factors.** Glucose and cholesterol tend to rise together, which makes their separate effects hard to untangle
+- **Undefined outcome.** CVD is a single yes-or-no label, and the dataset does not say which conditions count
+- **Binary sex, inferred.** Sex is recorded only as a binary code, so our results cannot speak beyond it. The code for women was inferred from average height (161 vs 170 cm)
 
 ## Presentation
 
