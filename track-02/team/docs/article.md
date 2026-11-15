@@ -48,7 +48,7 @@ That does not mean high glucose protects the heart. The two measures travel toge
 
 ![Glucose odds ratios from models without and with cholesterol](../figures/fig3_glucose_flip.png)
 
-*Figure 3. Glucose odds ratios from a model without cholesterol (grey) and with it (green). Well above normal glucose goes from higher odds to lower odds once cholesterol is included.*
+*Figure 3. Glucose odds ratios from a model without cholesterol (grey) and with it (blue). Well above normal glucose goes from higher odds to lower odds once cholesterol is included.*
 
 ### Cholesterol adds only a little to prediction
 
