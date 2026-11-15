@@ -9,6 +9,7 @@ OpenBio 2026 Datathon, Track 2: Cardiovascular Health in Women
 | Name | Role |
 |---|---|
 |Adam |Repo and cleaning |
+|Gabriella |Analysis |
 
 ## Research Question
 
